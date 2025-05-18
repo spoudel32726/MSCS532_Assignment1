@@ -17,3 +17,10 @@ if __name__ == "__main__":
     print("Original array:", test_array)
     sorted_array = insertion_sort_descending(test_array)
     print("Sorted array (descending):", sorted_array)
+
+
+    #Expected Output :
+    # Original
+    # array: [5, 2, 4, 66, 1, 3]
+    # Sorted
+    # array(descending): [66, 5, 4, 3, 2, 1]
